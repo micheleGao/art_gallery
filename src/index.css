@@ -1,5 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+*{ box-sizing:border-box}
+
+*:before,
+*:after {
+	box-sizing:inherit;
+}
+body{
+  font-family: 'Playball', cursive, sans-serif !important;
+  -webkit-font-smoothing: antialiased !important;
+  -moz-osx-font-smoothing: grayscale !important;
+}
+nav{
+  position:sticky !important;
+  top:0 !important;
+  background-color:darkolivegreen!important;
+  z-index: 1;
+  border-style: double;
+  text-align:center; 
+}
 .gallery{
   display:flex;
-  justify-content: space-between;
+  justify-content: flex-end;
+  /* flex-basis: 33%; */
   flex-wrap: wrap;
+  margin: 0;
+  flex-direction: row;
+
 }
+.gallery_col{
+  display:flex;
+  margin: auto;
+  flex-wrap: wrap;
+  flex-direction:row;
+  align-items: center;
+  justify-content:flex-start;
+}
+.button{
+  display:flex;
+  margin:auto;
+  align-items: center;
+  border-radius: 30%;
+}
+
