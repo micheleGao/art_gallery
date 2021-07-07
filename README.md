@@ -9,23 +9,36 @@ The beauty of art is in the eye of the beholder.
 A website to enjoy the beauty of art. There's a Homepage, a Gallery, and About page. All photos were sourced from HarvardArtMuseum.org
 
 
- #### This project was deployed to netlify, heres the link: https://gifted-perlman-16f6e4.netlify.app/
+ #### This project was deployed to netlify, heres the link: 
 
 
 ### Inspiration  for the project
+I have always loved art, and being able to pull data from an API with art and using React seemed like a great idea for the modularity of the contents and be able to display the content accordingly to the way I imagined. 
 
 
 
 ## Wireframing of the components 
+<img width="911" alt="Screen Shot 2021-07-07 at 1 44 41 PM" src="https://user-images.githubusercontent.com/72947727/124805486-94eac880-df29-11eb-8f97-09b6d4ea11e0.png">
+<img width="964" alt="Screen Shot 2021-07-07 at 1 44 29 PM" src="https://user-images.githubusercontent.com/72947727/124805474-90beab00-df29-11eb-8620-a2d8aa083966.png">
+
 
 
 
 ## My MVP Goals
+- To have at least one API
+- To useContext for the data 
+- Media Responsive
+- Use react-Bootsrap
 
 
 ## Stretch Goals
+- Using a second API for another gallery page
+- Displaying the information of the photos/art displayed
 
 ### Complications during the project
+-Using useContext()
+-Harvard Art Museum API
+-The useEffect in the useContext
 
 
 ## Technologies Used.
