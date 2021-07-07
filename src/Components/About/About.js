@@ -10,6 +10,7 @@ The Harvard Art Museums are dedicated to creating transformative teaching and le
 All of the museums’ spaces have been designed to facilitate teaching and learning through art. With innovative programs tailored to diverse audiences, the museums are a site for all to convene and discover the power of object-based learning.</p>
             </div>
             <img src="https://user-images.githubusercontent.com/3187493/80253872-1a959780-8648-11ea-826c-fc2a8b6cc082.png" width="500"/>
+            <p><a href="https://harvardartmuseums.org/teaching-and-research">What is Harvard Art Museum is about?</a></p>
         </div>
     )
 }

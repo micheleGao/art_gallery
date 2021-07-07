@@ -12,9 +12,9 @@ console.log(DataContext);
 
 export default function App() {
   const [images, setImages] = useState([]);
-  // const apiKey= process.env.REACT_APP_GALLERY_KEY;
+  const apiKey= process.env.REACT_APP_GALLERY_KEY;
 
-  const apiKey = '20786a6b-b814-4da3-bd58-b0d3a1d65bde';
+  // const apiKey = '20786a6b-b814-4da3-bd58-b0d3a1d65bde';
 
   let pageNum;
   const getRandomPageNum = () => {

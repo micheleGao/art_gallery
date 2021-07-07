@@ -9,11 +9,10 @@ export default function Gallery() {
     // console.log(galleryData.images[1].baseimageurl)
 
     return (
-        <div className="gallery">
-            <div>
+        <div>
             <div><Button className="button" onClick={galleryData.getImages}variant="success">Get Random Gallery Photos here</Button></div>
-            </div>
             {/* <button onClick={galleryData.getImages}>Get Random Gallery Photos here </button> */}
+            <div className="gallery">
             {galleryData.images.map((image, idx) => {
                 return (
                     <>
@@ -25,6 +24,7 @@ export default function Gallery() {
                     </>
                 )
             })}
+            </div>
         </div>
        
 

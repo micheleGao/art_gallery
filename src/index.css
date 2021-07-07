@@ -1,3 +1,5 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
 @import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
 *{ box-sizing:border-box}
 
@@ -9,19 +11,22 @@ body{
   font-family: 'Playball', cursive, sans-serif !important;
   -webkit-font-smoothing: antialiased !important;
   -moz-osx-font-smoothing: grayscale !important;
+  font-size: 25px;
 }
-nav{
-  position:sticky !important;
-  top:0 !important;
-  background-color:darkolivegreen!important;
+nav a:hover{
+  position:sticky;
+  top:0;
+  background-color:ghostwhite;
   z-index: 1;
   border-style: double;
-  text-align:center; 
+  text-align:center;
+  font-size: 40px; 
 }
+
 .gallery{
   display:flex;
-  justify-content: flex-end;
-  /* flex-basis: 33%; */
+  justify-content:space-between;
+  flex-basis: 33%;
   flex-wrap: wrap;
   margin: 0;
   flex-direction: row;
@@ -40,5 +45,8 @@ nav{
   margin:auto;
   align-items: center;
   border-radius: 30%;
+  font-size: 25px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
