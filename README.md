@@ -9,7 +9,7 @@ The beauty of art is in the eye of the beholder.
 A website to enjoy the beauty of art. There's a Homepage, a Gallery, and About page. All photos were sourced from HarvardArtMuseum.org
 
 
- #### This project was deployed to netlify, heres the link: 
+ #### This project was deployed to netlify, heres the link: https://artgallerymg.netlify.app
 
 
 ### Inspiration  for the project
