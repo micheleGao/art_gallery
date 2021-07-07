@@ -7,7 +7,7 @@ export default function Navigation() {
         <div>
             <Nav justify variant="tabs" defaultActiveKey="/home">
                 <Nav.Item>
-                    <Nav.Link as={Link} to="/">Home</Nav.Link>
+                    <Nav.Link as={Link} to="/Home">Home</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
                     <Nav.Link as={Link} to="/gallery">Gallery</Nav.Link>
