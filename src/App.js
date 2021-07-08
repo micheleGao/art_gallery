@@ -46,6 +46,7 @@ export default function App() {
         <main>
           <Switch>
             Hellooo
+            <Route path="#/" render={() => <Home />} />
             <Route path="/home" render={() => <Home />} />
             <Route path="/gallery" render={() => <Gallery images={images} />} />
             <Route path="/about" render={() => <About />} />

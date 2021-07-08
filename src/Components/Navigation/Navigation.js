@@ -5,7 +5,7 @@ import {Link} from 'react-router-dom';
 export default function Navigation() {
     return (
         <div>
-            <Nav justify variant="tabs" defaultActiveKey="/home">
+            <Nav justify variant="tabs" defaultActiveKey="#/">
                 <Nav.Item>
                     <Nav.Link as={Link} to="/Home">Home</Nav.Link>
                 </Nav.Item>
