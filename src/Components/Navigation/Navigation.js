@@ -16,7 +16,6 @@ export default function Navigation() {
                     <Nav.Link as={Link} to="/about">About</Nav.Link>
                 </Nav.Item>
             </Nav>
-
             {/* <Button variant="secondary" size="lg">Large button</Button> */}
         </div>
     )
